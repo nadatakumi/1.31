@@ -5,7 +5,7 @@ class Person {
     public int age;
     public double height;
     public double weight;
-    public static int count = 0; // 問題1：クラスフィールドcountの定義（初期値: 0）
+    public static int count = 0; // 問題1：クラスフィールドcountの定義
 
     Person(String name, int age, double height, double weight) {
         this.name = name;
@@ -26,6 +26,6 @@ class Person {
 
     // 問題4と問題5：クラスメソッドprintCountの定義
     public static void printCount() {
-        System.out.println("合計" + count + "人です"); // クラスフィールドcountを用いて出力
+        System.out.println("合計" + count + "人です"); 
     }
 }
